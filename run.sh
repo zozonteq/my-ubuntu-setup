@@ -7,12 +7,13 @@ sudo apt install git python python3 neovim vim gcc g++ nmap fish hashcat default
 #Create test projects
 cd 
 mkdir repo && cd repo
-mkdir js-test cpp-test c-test python-test java-test
+mkdir js-test cpp-test c-test python-test java-test csharp-test 
 cd js-test && touch main.js && cd ..
 cd cpp-test && touch main.cpp run.sh && "g++ main.cpp&&./a.out">>run.sh && cd ..
 cd c-test && touch main.c run.sh && "gcc main.c && ./a.out" >> run.sh && cd ..
 touch python-test/main.py
 touch java-test/main.java
+touch csharp-test/program.cs
 
 #setup neovim
 cd ~/.config/
